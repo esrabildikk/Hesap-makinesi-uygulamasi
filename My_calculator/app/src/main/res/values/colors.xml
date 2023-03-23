@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#6C0FDD</color>
+    <color name="purple_500">#CE3636</color>
+    <color name="purple_700">#000000</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFF</color>
+    <color name="editTextArkaPlan">#231634</color>
+    <color name="buttonTop3ArkaPlan">#837F88</color>
+    <color name="buttonOrtaArkaPlan">#2E2D2E</color>
+    <color name="buttonSağArkaPlan">#80331B</color>
+
+</resources>

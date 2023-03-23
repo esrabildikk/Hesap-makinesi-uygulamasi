@@ -1,0 +1,338 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/black"
+        android:ems="10"
+        android:gravity="right"
+        android:inputType="number"
+        android:paddingTop="75dp"
+        android:paddingRight="25dp"
+        android:paddingBottom="25dp"
+        android:text="0"
+        android:textColor="#FEFEFB"
+        android:textSize="40sp" />
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:id="@+id/buttonAC"
+                android:layout_width="90dp"
+                android:layout_height="90dp"
+                android:layout_weight="1"
+                android:backgroundTint="@color/buttonTop3ArkaPlan"
+                android:insetLeft="2dp"
+                android:insetTop="2dp"
+                android:insetRight="1dp"
+                android:insetBottom="1dp"
+                android:onClick="btnClick"
+                android:text="AC"
+                android:textColor="#FEFEFB"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/sil"
+                android:layout_width="90dp"
+                android:layout_height="90dp"
+                android:layout_weight="1"
+                android:backgroundTint="@color/buttonTop3ArkaPlan"
+                android:insetLeft="1dp"
+                android:insetTop="2dp"
+                android:insetRight="1dp"
+                android:insetBottom="1dp"
+                android:onClick="btnClick"
+                android:text="Sil"
+                android:textColor="#FEFEFB"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/buttonYuzde"
+                android:layout_width="90dp"
+                android:layout_height="90dp"
+                android:layout_weight="1"
+                android:backgroundTint="@color/buttonTop3ArkaPlan"
+                android:insetLeft="1dp"
+                android:insetTop="2dp"
+                android:insetRight="1dp"
+                android:insetBottom="1dp"
+                android:onClick="btnClick"
+                android:text="%"
+                android:textColor="#FEFEFB"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/buttonBolme"
+                android:layout_width="90dp"
+                android:layout_height="90dp"
+                android:layout_weight="1"
+                android:backgroundTint="@color/buttonSağArkaPlan"
+                android:insetLeft="1dp"
+                android:insetTop="2dp"
+                android:insetRight="2dp"
+                android:insetBottom="1dp"
+                android:onClick="btnClick"
+                android:text="/"
+                android:textColor="#FEFEFB"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:id="@+id/button7"
+                android:layout_width="90dp"
+                android:layout_height="90dp"
+                android:layout_weight="1"
+                android:backgroundTint="@color/buttonOrtaArkaPlan"
+                android:insetLeft="2dp"
+                android:insetTop="1dp"
+                android:insetRight="1dp"
+                android:insetBottom="1dp"
+                android:onClick="btnClick"
+                android:text="7"
+                android:textSize="24sp" />
+
+            <Button
+                android:id="@+id/button8"
+                android:layout_width="90dp"
+                android:layout_height="90dp"
+                android:layout_weight="1"
+                android:backgroundTint="@color/buttonOrtaArkaPlan"
+                android:insetTop="1dp"
+                android:insetRight="1dp"
+                android:insetBottom="1dp"
+                android:onClick="btnClick"
+                android:text="8"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/button9"
+                android:layout_width="90dp"
+                android:layout_height="90dp"
+                android:layout_weight="1"
+                android:backgroundTint="@color/buttonOrtaArkaPlan"
+                android:insetTop="1dp"
+                android:insetRight="1dp"
+                android:insetBottom="1dp"
+                android:onClick="btnClick"
+                android:text="9"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/buttonCarpma"
+                android:layout_width="90dp"
+                android:layout_height="90dp"
+                android:layout_weight="1"
+                android:backgroundTint="@color/buttonSağArkaPlan"
+                android:insetTop="1dp"
+                android:insetRight="2dp"
+                android:insetBottom="1dp"
+                android:onClick="btnClick"
+                android:text="*"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:id="@+id/button4"
+                android:layout_width="90dp"
+                android:layout_height="90dp"
+                android:layout_weight="1"
+                android:backgroundTint="@color/buttonOrtaArkaPlan"
+                android:insetLeft="2dp"
+                android:insetTop="1dp"
+                android:insetRight="1dp"
+                android:insetBottom="1dp"
+                android:onClick="btnClick"
+                android:text="4"
+                android:textSize="24sp" />
+
+            <Button
+                android:id="@+id/button5"
+                android:layout_width="90dp"
+                android:layout_height="90dp"
+                android:layout_weight="1"
+                android:backgroundTint="@color/buttonOrtaArkaPlan"
+                android:insetTop="1dp"
+                android:insetRight="1dp"
+                android:insetBottom="1dp"
+                android:onClick="btnClick"
+                android:text="5"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/button6"
+                android:layout_width="90dp"
+                android:layout_height="90dp"
+                android:layout_weight="1"
+                android:backgroundTint="@color/buttonOrtaArkaPlan"
+                android:insetTop="1dp"
+                android:insetRight="1dp"
+                android:insetBottom="1dp"
+                android:onClick="btnClick"
+                android:text="6"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/buttonCikarma"
+                android:layout_width="90dp"
+                android:layout_height="90dp"
+                android:layout_weight="1"
+                android:backgroundTint="@color/buttonSağArkaPlan"
+                android:insetTop="1dp"
+                android:insetRight="2dp"
+                android:insetBottom="1dp"
+                android:onClick="btnClick"
+                android:text="-"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:id="@+id/button1"
+                android:layout_width="90dp"
+                android:layout_height="90dp"
+                android:layout_weight="1"
+                android:backgroundTint="@color/buttonOrtaArkaPlan"
+                android:insetLeft="2dp"
+                android:insetTop="1dp"
+                android:insetRight="1dp"
+                android:insetBottom="1dp"
+                android:onClick="btnClick"
+                android:text="1"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/button2"
+                android:layout_width="90dp"
+                android:layout_height="90dp"
+                android:layout_weight="1"
+                android:backgroundTint="@color/buttonOrtaArkaPlan"
+                android:insetTop="1dp"
+                android:insetRight="1dp"
+                android:insetBottom="1dp"
+                android:onClick="btnClick"
+                android:text="2"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/button3"
+                android:layout_width="90dp"
+                android:layout_height="90dp"
+                android:layout_weight="1"
+                android:backgroundTint="@color/buttonOrtaArkaPlan"
+                android:insetTop="1dp"
+                android:insetRight="1dp"
+                android:insetBottom="1dp"
+                android:onClick="btnClick"
+                android:text="3"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/buttonToplama"
+                android:layout_width="90dp"
+                android:layout_height="90dp"
+                android:layout_weight="1"
+                android:backgroundTint="@color/buttonSağArkaPlan"
+                android:insetTop="1dp"
+                android:insetRight="2dp"
+                android:insetBottom="1dp"
+                android:onClick="btnClick"
+                android:textSize="24sp"
+                android:text="+"
+                android:textStyle="bold"
+                tools:text="+" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/button0"
+                android:layout_width="90dp"
+                android:layout_height="90dp"
+                android:layout_weight="8"
+                android:backgroundTint="@color/buttonOrtaArkaPlan"
+                android:insetLeft="2dp"
+                android:insetTop="1dp"
+                android:insetRight="1dp"
+                android:insetBottom="2dp"
+                android:onClick="btnClick"
+                android:text="0"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/buttonVirgul"
+                android:layout_width="90dp"
+                android:layout_height="90dp"
+                android:layout_weight="0.9"
+                android:backgroundTint="@color/buttonOrtaArkaPlan"
+                android:insetTop="1dp"
+                android:insetRight="1dp"
+                android:insetBottom="2dp"
+                android:onClick="btnClick"
+                android:text="."
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/buttonEsittir"
+                android:layout_width="90dp"
+                android:layout_height="90dp"
+                android:layout_weight="0.9"
+                android:backgroundTint="@color/buttonSağArkaPlan"
+                android:insetTop="1dp"
+                android:insetRight="2dp"
+                android:insetBottom="2dp"
+                android:onClick="btnClick"
+                android:text="="
+                android:textSize="24sp"
+                android:textStyle="bold" />
+        </TableRow>
+
+    </TableLayout>
+
+
+
+
+</androidx.appcompat.widget.LinearLayoutCompat>
